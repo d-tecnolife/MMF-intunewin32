@@ -1,4 +1,4 @@
-$scriptVersion = "2.0.2"
+$scriptVersion = "2.0.3"
 $sourceFolder = "$PSScriptRoot\..\IT Tools Deployment"
 $destinationFolder = "$PSScriptRoot\IT Tools Deployment\$scriptVersion"
 $setupFile = "$sourceFolder\install.cmd"
