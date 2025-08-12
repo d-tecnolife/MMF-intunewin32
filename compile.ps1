@@ -1,5 +1,5 @@
-$scriptVersion = "2.0.3"
-$sourceFolder = "$PSScriptRoot\..\IT Tools Deployment"
-$destinationFolder = "$PSScriptRoot\IT Tools Deployment\$scriptVersion"
+$scriptVersion = "1.0.0"
+$sourceFolder = "$PSScriptRoot\..\..\WinGet"
+$destinationFolder = ".\$scriptVersion"
 $setupFile = "$sourceFolder\install.cmd"
 .\IntuneWinAppUtil.exe -c $sourceFolder -s $setupFile -o $destinationFolder -q
